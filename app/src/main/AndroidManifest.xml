@@ -13,6 +13,21 @@
         android:theme="@style/Theme.Practicelayout"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivityui3new"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity01"
+            android:exported="false" />
+        <activity
+            android:name=".ui4"
+            android:exported="false" />
+        <activity
+            android:name=".ui3"
+            android:exported="false" />
+        <activity
+            android:name=".ui2"
+            android:exported="false" />
+        <activity
             android:name=".gradient1"
             android:exported="false" />
         <activity
