@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -12,7 +12,6 @@
         android:orientation="vertical"
         android:gravity="center_horizontal">
 
-        <!-- Top Heading -->
         <TextView
             android:id="@+id/tv_heading"
             android:layout_width="wrap_content"
@@ -23,17 +22,14 @@
             android:textColor="#3F51B5"
             android:layout_marginBottom="16dp"/>
 
-        <!-- Image -->
         <ImageView
             android:id="@+id/iv_image"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:src="@drawable/ic_user"
+            android:src="@drawable/logo"
             android:layout_marginBottom="16dp"
-            android:scaleType="centerCrop"
-            android:background="@drawable/rounded_image_bg"/>
+            android:scaleType="centerCrop"/>
 
-        <!-- CardView with Inputs -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -48,7 +44,6 @@
                 android:orientation="vertical"
                 android:padding="16dp">
 
-                <!-- Name -->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -61,10 +56,13 @@
                         android:layout_weight="1"
                         android:text="Name:"
                         android:textStyle="bold"/>
-
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
+                        android:layout_weight="2"
+                        android:hint="Enter name"/>
                 </LinearLayout>
 
-                <!-- Email -->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -80,10 +78,9 @@
 
                     <EditText
                         android:layout_width="0dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="48dp"
                         android:layout_weight="2"
-                        android:hint="Enter email"
-                        android:background="@drawable/edit_text_bg"/>
+                        android:hint="Enter email" />
                 </LinearLayout>
 
                 <!-- Phone -->
@@ -102,14 +99,12 @@
 
                     <EditText
                         android:layout_width="0dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="48dp"
                         android:layout_weight="2"
                         android:hint="Enter phone"
-                        android:inputType="phone"
-                        android:background="@drawable/edit_text_bg"/>
+                        android:inputType="phone" />
                 </LinearLayout>
 
-                <!-- Password -->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -125,14 +120,13 @@
 
                     <EditText
                         android:layout_width="0dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="48dp"
                         android:layout_weight="2"
                         android:hint="Enter password"
-                        android:inputType="textPassword"
-                        android:background="@drawable/edit_text_bg"/>
+                        android:inputType="textPassword" />
+
                 </LinearLayout>
 
-                <!-- Address -->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -148,15 +142,13 @@
 
                     <EditText
                         android:layout_width="0dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="48dp"
                         android:layout_weight="2"
-                        android:hint="Enter address"
-                        android:background="@drawable/edit_text_bg"/>
+                        android:hint="Enter address" />
                 </LinearLayout>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-        <!-- Buttons -->
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -181,5 +173,5 @@
                 android:textColor="#FFF"/>
         </LinearLayout>
 
-    </LinearLayout>
-</ScrollView>
+
+
