@@ -47,7 +47,7 @@
             android:layout_width="65dp"
             android:layout_height="65dp"
             android:layout_margin="15dp"
-            tools:srcCompat="@tools:sample/avatars[0]" />
+            tools:srcCompat="@tools:sample/avatars[0]"/>
 
         <ImageView
             android:id="@+id/imageView5"
@@ -76,7 +76,7 @@
             android:textSize="20dp"/>
         <EditText
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="49dp"
             android:layout_weight="2"
             android:layout_marginStart="16dp"
             android:hint="Enter your name"/>
@@ -98,7 +98,7 @@
             android:textSize="20dp"/>
         <EditText
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="49dp"
             android:layout_weight="2"
             android:layout_marginStart="20dp"
             android:hint="Enter your Valid Email"/>
@@ -122,7 +122,7 @@
 
             <EditText
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="49dp"
                 android:layout_weight="2"
                 android:layout_marginStart="16dp"
                 android:hint="Enter Contact"/>
@@ -143,7 +143,7 @@
             android:textSize="20dp"/>
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="49dp"
             android:layout_weight="2"
             android:layout_marginStart="1dp"
             android:hint="Enter address"/>
@@ -168,7 +168,7 @@
 
         <EditText
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="49dp"
             android:layout_weight="2"
             android:layout_marginStart="16dp"
             android:hint="Enter Gender"/>
